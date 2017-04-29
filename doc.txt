@@ -1,0 +1,54 @@
+https://developer.mozilla.org/en-US/docs/Web/javascript
+https://developer.mozilla.org/ro/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+return:
+function multiplyNumbers(a, b){
+var result = a*b;
+return result;
+}
+
+var theProductOf2And10 = mutiplyNumbers(2, 10);
+
+$0
+<h2 id=​"Tutorials">​Tutorials​</h2>​
+
+var turotialsElement= $0;
+
+
+tutorialsElement.addEventListerner('click', function(event)){
+console.log(event);
+console.log('turotilas element was clicked');
+}
+
+Higher order functions:
+- function that accept other functions ex: run debugger, settimeout, forEach and adEventLisner and
+enhance the bahavior of other functions.
+
+callback functions:
+- the functions that are passed into higher order functions.
+ex:
+1.
+highr order functionrun -> WithDebugger(function(){
+for (var i = 0; i <10; i++){
+console.log(i);
+}
+
+});
+
+2.
+highr order functionrun -> setTimeout(function(){
+console.log('wake up samsu');
+}, 6000);
+
+3.
+var students = ['jonathan', 'jenny', 'elliot'];
+
+forEach(students, function(student) {
+    console.log(student);
+});
+
+4.
+
+tutorialsElement.addEventListerner('click', function(event)){ <- callback function
+console.log(event);
+console.log('turotilas element was clicked');
+}
